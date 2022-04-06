@@ -17,6 +17,7 @@ public class Clinic {
         ArrayList<Prescription> prescriptions = new ArrayList<>();
         prescriptions.add(new Prescription(catDimmy, "Tylosin", 5));
         prescriptions.add(new Prescription(catTabby, "Pyrantel", 3));
+        //a
 
         System.out.print("Clinic: " + clinic.getNameOfClinic());
         System.out.println("\nVet on Duty: " + clinic.getPractitioner().getName() + ", " + clinic.getPractitioner().getQualification() + "\n");
